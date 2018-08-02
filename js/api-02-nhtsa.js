@@ -49,7 +49,6 @@ request
   var cars = response.body.Results;
   var carModels = [];
   cars.forEach(function(model) {
-    console.log(model.Model_Name)
     carModels.push(model.Model_Name)
   })
   carModels = carModels.join(", ");
