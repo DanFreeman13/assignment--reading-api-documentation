@@ -8,7 +8,7 @@ const answerElement_iceland_1 = document.getElementById('iceland-1')
 request.get('https://apis.is/hospital')
   .then(function(serverRes){
     let apiJsonData = serverRes.body
-    console.log(apiJsonData)
+    // console.log(apiJsonData)
     answerElement_iceland_1.innerHTML = apiJsonData.results[0].birthNumbers
   })
 
