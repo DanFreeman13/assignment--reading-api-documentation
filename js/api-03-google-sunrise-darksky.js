@@ -57,7 +57,6 @@ request
 
 //========================================================================
 //  (3) What is the weekly weather forecast in Montreal? (look for summary property in 'daily')
-var API_KEY_DRKSKY = "a44050f5ec0c0ac41c4c8aa5dd833d20"
 var API_DRKSKY_URL_COORDS = "https://api.darksky.net/forecast/" + API_KEY_DRKSKY + "/" + montrealCoord[0] + "," + montrealCoord[1];
 
   request
